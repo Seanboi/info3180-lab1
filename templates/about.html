@@ -3,6 +3,7 @@
 <head>
  <meta charset="UTF-8">
  <title>My Website - About</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
  <h1>Sean Spence</h1>
@@ -10,5 +11,6 @@
     West Indies pursuing a bachelor in Computer Science. I love to play video games and watch anime and I also read some spare books in my
     free time. I love to swim and used to be a national triahtlon ahtlete representing my country, Jamaica.
  </p>
+ <img src="{{ url_for('static', filename='download.jpg') }}" alt="Link">
 </body>
 </html>
